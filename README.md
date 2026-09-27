@@ -6,6 +6,10 @@ A complete worked example of rebuilding a game-like classroom presentation from 
 
 ## Open the finished examples
 
+**[Download the complete kit](https://github.com/RoXsaita/crash-game-kit/releases/latest/download/Crash-Game-Kit.zip)** · **[PowerPoint](https://github.com/RoXsaita/crash-game-kit/releases/latest/download/Crash-Classroom.pptx)** · **[Offline HTML](https://github.com/RoXsaita/crash-game-kit/releases/latest/download/Crash-Classroom.html)**
+
+[![Build and test](https://github.com/RoXsaita/crash-game-kit/actions/workflows/build.yml/badge.svg)](https://github.com/RoXsaita/crash-game-kit/actions/workflows/build.yml)
+
 - **PowerPoint:** `deliverables/Crash-Classroom.pptx`. Open in desktop PowerPoint and use **Slide Show → From Beginning**.
 - **HTML:** `deliverables/Crash-Classroom.html`. Open in a modern desktop browser. Media is embedded; no server or internet is required to play.
 
