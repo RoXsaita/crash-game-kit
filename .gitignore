@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+source/crash-powerpoint/render-frames/
+source/crash-powerpoint/rendered/
+source/crash-powerpoint/preview-parts/
+source/crash-html/qa/
+source/crash-html/qa-*.html
+source/crash-html/Crash-Classroom.html
+source/crash-powerpoint/Crash-Classroom.pptx
+deliverables/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store

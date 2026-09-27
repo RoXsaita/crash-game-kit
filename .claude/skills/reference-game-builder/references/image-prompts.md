@@ -1,0 +1,29 @@
+# Image generation prompts and asset provenance
+
+These are the substantive prompts used to create the example art. The first two used screen frames from the primary public reference as visual guidance; the character cutout used the generated jungle scene as a design reference. The bundle includes the actual generated results under `source/crash-powerpoint/raw-assets/` and the processed assets under `assets/`.
+
+An image-generation tool was available during creation. It is **not** supplied by this skill. With Claude Code, use a configured image tool or generate the images separately and place them at the documented paths. The already-included assets require no API key or paid service to reuse locally.
+
+Requests specified landscape or square composition, but actual returned files were 1672×941. Inspect returned dimensions rather than trusting requested settings. Recreating these prompts does not guarantee identical pixels.
+
+## 1. Jungle question scene → `jungle.png`
+
+> Create a clean 16:9 full-screen background asset for a Crash Bandicoot educational PowerPoint that closely recreates the GAME SCREEN CONTENT visible in the reference, NOT the laptop or room. High-quality polished 3D-rendered Crash Bandicoot N. Sane Trilogy visual style. Warm sunny jungle platforming level: winding sandy dirt path through chunky mossy rock ledges, lush lime-green grass, purple tropical plants, thick trees, small wooden crates in the far background, turquoise blue sky. Full body Crash Bandicoot at the far left, orange furry goofy marsupial with tall ears, green eyes, blue jean shorts and red sneakers, smiling and raising one hand, occupying leftmost 22% of frame from 33% to 90% height. Keep the right 72% of frame visually quiet to hold large question boards that will be added later. Crisp appealing videogame 3D art, depth, sunlight, vivid colours, dimensional fur and foliage. IMPORTANT: absolutely NO text, NO question boards, NO interface, NO logos, NO watermark, NO laptop, NO border, no other characters. Landscape 16:9 composition.
+
+## 2. Beach menu scene → `beach.png`
+
+> Generate a full-bleed 16:9 high quality Crash Bandicoot N. Sane Trilogy-style 3D videogame tropical pirate beach BACKGROUND for a clickable crate selection PowerPoint. Recreate the GAME SCENERY visible on the laptop SCREEN in the reference, but do NOT include any laptop or room. Warm sunlit golden beach with a dramatic curved weathered pirate shipwreck on left, tropical palms overhead, turquoise sea and stylized rock cliffs in the distance. Sandy foreground across central 75% of frame is spacious and EMPTY, ideal for placing a two-row grid of question crates later. A small full-body Crash Bandicoot character smiling with hands on hips at extreme bottom right, occupying just the rightmost 12% and bottom 35%. Premium polished 3D-rendered game artwork, colourful, playful, slightly cinematic, detailed materials. NO crates in foreground, NO wooden title board, NO text, NO logos, NO watermark, no interface, NO computer, NO photograph of a screen. Only game environment illustration with mascot.
+
+## 3. UI prop sheet → `sprites.png`
+
+> Create a high-resolution GAME UI ASSET SHEET on perfectly solid flat hot magenta background #FF00FF. 16:9 canvas. Premium colourful 3D Crash Bandicoot N. Sane Trilogy wooden game prop style. Exactly FOUR separate objects, with generous magenta spacing so each can be cut out cleanly. UPPER HALF: a single very wide horizontal blank light honey-brown wooden signboard, three horizontal planks with clear natural woodgrain, thick bevelled edge, beige rope wrapped at left and right and two vertical hanging ropes reaching nearly to top of canvas. Board extends from x=5% to x=95%, occupies y=10% to y=39%. NO text on board. MIDDLE STRIP: one long narrow wooden answer plank, banner/ribbon shape with pointed notched wooden ends, two round silver bolts near both ends, light golden wood, extending x=5% to95%, y=46% to65%. NO text on answer plank. BOTTOM LEFT: one iconic Crash wooden mystery crate in isometric three-quarter view, square cube, red-brown panels, thick golden wood beams, large yellow question mark on each visible side, occupying x=8% to32%, y=72% to96%. BOTTOM RIGHT: one large shiny Wumpa fruit, bright red-orange round apple/mango fruit with yellow lower half and a crown of green leaves, occupying x=69% to85%, y=73% to96%. Objects isolated without touching. No ground plane. No cast shadows on magenta. No text except question marks. Clean sharp edge silhouettes, high detail. Do not add any other objects or characters.
+
+## 4. Character cutout → `crash.png`
+
+> One full-body Crash Bandicoot character, recognisable orange cartoon bandicoot with tall ears, green eyes, goofy big smile, blue jeans shorts and red sneakers, in the high quality polished 3D N. Sane Trilogy videogame style. Dynamic exuberant mid-air jump, arms stretched outward, legs bent slightly, facing camera, wide confident grin. Full character clearly within image with 12% breathing space around all sides. Fine detailed orange fur, realistic rounded 3D game materials, studio lighting, silhouette easy to cut out. PERFECTLY FLAT HOT MAGENTA #FF00FF background for chroma-key removal, no floor, no ground shadow, no props, no wood, no text, no logo, no border. Match the character design in the supplied reference.
+
+## Adapt the recipe, not just the names
+
+For another theme, replace the character, environmental motifs, navigation props, materials and palette together while keeping equivalent UI-safe spaces. Use an original or properly licensed character for commercial work. Do not assume image generation grants rights in an existing franchise.
+
+Regenerate the background and prop kit first, inspect their actual dimensions/crops, then rerun the asset preparation and both builders. Keep the generated artwork free of questions so native PowerPoint and HTML text remain editable.
